@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Produk Saya</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Style untuk Logo Foto */
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Membuat foto jadi bulat */
+            object-fit: cover;
+            border: 3px solid #000000;
+            margin-bottom: 10px;
+        }
+        h2 { margin: 10px 0; color: #333; }
+        .owner-name { color: ##1a1a1a; font-weight: bold; }
+        
+        .product-list { text-align: left; margin-top: 20px; }
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .price { color: #000000; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="foto.jpg" alt="Logo Saya" class="profile-img">
+
+    <h2>TERAPEDIA<span class="owner-name"></span></h2>
+    <p style="color: #666;">PRICE LIST</p>
+
+    <div class="product-list">
+        <div class="product-item">
+            <span>ITEM SHOP</span>
+            
+            </div>
+    <div class="product-list">
+          <div class="product-item">
+              <span>STAR LIGHT BASIC</span>
+            <span class="price">Rp 5.000</span>
+        </div>
+        <div class="product-item">
+            <span>STAR LIGHT PREMIUM</span>
+            <span class="price">Rp 10.000</span>
+        </div>
+        <div class="product-item">
+            <span>RENEME CARD</span>
+            <span class="price">Rp 5.000</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
